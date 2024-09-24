@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <body background="https://th.bing.com/th/id/OIP.jnhPxkxT2fPVmQQhqwPkygHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7" size="'1000 " background-repeat="no-repeat">
+    <div class="stopwatch-container">
+        <font size="80" color="dark pink"><b><center>Stopwatch</center></b></font><br>
+        <center><h1><div id="display" class="display">00:00:00.00</div></h1>
+        <div class="buttons">
+           <h1><B><font color="pink"><button id="startPauseBtn" onclick="startPause()">Start</button></font></B>
+            <B> <button id="lapBtn" onclick="recordLap()" disabled>Lap</button></B>
+                <B><button id="resetBtn" onclick="resetStopwatch()" disabled>Reset</button></div></h1></B>
+        </div>
+       <center><b> <ul id="laps" class="laps"></ul></b></center></center>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
